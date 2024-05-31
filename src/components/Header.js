@@ -4,7 +4,12 @@ import './Header.css';
 const Header = () => {
   return (
     <header className="App-header">
-      <h1>My Blog</h1>
+      <div className="logo">My Blog</div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
   );
 };

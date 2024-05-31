@@ -1,14 +1,44 @@
 .BlogPost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 1px solid #ddd;
     padding: 10px;
     margin: 10px 0;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .BlogPost-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .BlogPost-content {
+    width: 100%;
   }
   
   .BlogPost h2 {
-    margin: 0 0 10px;
+    margin: 10px 0;
+  }
+  
+  .BlogPost-meta {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 10px;
   }
   
   .BlogPost p {
-    margin: 0;
+    margin: 10px 0;
+  }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
   }
   
