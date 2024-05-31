@@ -1,0 +1,14 @@
+.BlogPost {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .BlogPost h2 {
+    margin: 0 0 10px;
+  }
+  
+  .BlogPost p {
+    margin: 0;
+  }
+  
