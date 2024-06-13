@@ -8,7 +8,7 @@ const BlogPost = ({ title, date, author, image, content }) => {
       <div className="BlogPost-content">
         <h2>{title}</h2>
         <p className="BlogPost-meta">
-          <span>{date}</span> by <span>{author}</span>
+          <span>{date}</span> by Laksh <span>{author}</span>
         </p>
         <p>{content}</p>
         <hr />
