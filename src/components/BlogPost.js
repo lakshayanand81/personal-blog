@@ -1,20 +1,21 @@
-import React from 'react';
+
+import React, { useState } from 'react';
 import './BlogPost.css';
 
-const BlogPost = ({ title, date, author, image, content }) => {
+function BlogPost({ title, content }) {
+  const [likes, setLikes] = useState(0);
+
+  const handleLike = () => {
+    setLikes(likes + 1);
+  };
+
   return (
-    <div className="BlogPost">
-      <img src={image} alt={title} className="BlogPost-image" />
-      <div className="BlogPost-content">
-        <h2>{title}</h2>
-        <p className="BlogPost-meta">
-          <span>{date}</span> by Laksh <span>{author}</span>
-        </p>
-        <p>{content}</p>
-        <hr />
-      </div>
+    <div className="blog-post">
+      <h2>{title}</h2>
+      <p>{content}</p>
+      <button onClick={handleLike}>Like ({likes})</button>
     </div>
   );
-};
+}
 
 export default BlogPost;

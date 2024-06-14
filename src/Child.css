@@ -1,0 +1,18 @@
+
+.child-component {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tap-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.tap-button:hover {
+    background-color: #45a049;
+}

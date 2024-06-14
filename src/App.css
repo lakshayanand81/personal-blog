@@ -1,14 +1,37 @@
+
 .App {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  min-height: 100vh;
+}
+
+header, main, footer {
+  width: 100%;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+header {
+  background-color: #1E90FF; /* Changed to DodgerBlue */
+  color: white;
+  padding: 10px;
   text-align: center;
 }
 
-.App-main {
-  flex: 1;
+footer {
+  background-color: #1E90FF; /* Changed to DodgerBlue */
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+
+.blog-list {
+  width: 60%;
+  margin: 0 auto;
 }

@@ -1,24 +1,36 @@
-.App-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #282c34;
-    padding: 10px 20px;
-    color: white;
-  }
-  
-  .App-header .logo {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
-  
-  .App-header nav a {
-    margin: 0 10px;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .App-header nav a:hover {
-    text-decoration: underline;
-  }
-  
+
+.header {
+  background-color: #1E90FF; /* Changed to DodgerBlue */
+  color: white;
+  padding: 10px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.blog-title {
+  font-size: 1.2em;
+}
+
+.tagline {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.tagline h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.tagline p {
+  margin: 5px 0 0;
+}
